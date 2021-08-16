@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.first-heading{
+    text-align: center;
+    margin-top: 1rem;
+    /* padding-top: 1.5rem; */
+    font-weight: 600;
+
+}
+.midland-bank__span{
+    color:rgb(158, 27, 158);
+}
+/* form section start */
+.form-section{
+    background-color: rgb(121, 163, 212);
+    width: 75%;
+    margin-top: 0;
+    margin: auto;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.form-heading{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    padding-top: 1.5rem;
+    /* background-color: rgb(121, 163, 212); */
+
+}
+.form-email{
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid;
+    border-radius: .3rem;
+    width: 50%;
+    padding: .5rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);   
+
+}
+
+.form-pas{
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 1rem;
+    width: 50%;
+    padding: .5rem;
+    border: 1px solid;
+    border-radius: .3rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.form-main{
+    margin-left: 3rem;
+}
+#create{
+    color:rgba(180, 8, 8, 0.89);
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+.form-login__button{
+    color: #fff;
+    background-color:rgba(112, 91, 87, 0.603);
+    padding: .3rem 1.5rem;
+    border-radius: .5rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    
+}
+@media (max-width:768px) {
+    .form-email{
+        width: 90%;
+    }
+    .form-pas{
+        width: 90%;
+    }
+    .form-section{
+        width: 90%;
+    }
+    .form-login__button{
+        margin-left: 4rem;
+    }
+    
+}

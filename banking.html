@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankingSite</title>
+    <link rel="stylesheet" href="css/banking.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="first-heading">Your Banking is Here</h1>
+    <main>
+        <section class="main-section">
+            <div class="card-main grid grid-cols-3 gap-4 width 3/4 mx-auto ">
+                <div style="background-color: rgba(13, 141, 98, 0.883);" class="card">
+                    <h3 class="card-heading">Deposit</h3>
+                    <h4 class="balance">$<span id="deposit-total">00</span></h4>
+                </div>
+                <div style="background-color: rgba(94, 87, 136, 0.883);" class="card">
+                    <h3 class="card-heading">Withdraw</h3>
+                    <h4 class="balance">$<span id="withdrw-total">00</span> </h4>
+                </div>
+                <div style="background-color: rgba(58, 187, 187, 0.883);" class="card">
+                    <h3 class="card-heading">Balance</h3>
+                    <h4 class="balance">$<span id="main-blance">1200</span></h4>
+                </div>
+            </div>
+        </section>
+        <section class="handler-section">
+            <div class="card-main grid grid-cols-3 gap-4 width 3/4 mx-auto ">
+                <div class="">
+                   <h1 class="deposit-heading">Please Deposit</h1>
+                   <input id="deposit-input" type="number">
+                   <button id="deopsit-button" class="deopsit-btn">Deposit</button>
+                </div>
+                <div class="">
+                   <h1 class="withdraw-heading">Please Withdraw</h1>
+                   <input  id="withdraw-input" type="number">
+                   <button id="withdraw-button" class="withdraw-btn">Withdraw</button>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <script src="js/banking.js"></script>
+</body>
+</html>
